@@ -1,0 +1,52 @@
+*{
+  margin: 15px 20px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+  padding-top: 85px;
+  font-family:
+}
+p{
+  margin: 15px 20px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Alegreya Sans', serif;
+}
+
+
+.articletitle{
+  display: flex;
+}
+
+div .articleimg {
+  position: relative;
+  text-align: center;
+  color: ghostwhite;
+  align-content: center;
+
+}
+
+.image-overlay{
+  margin: 15px 20px;
+  color: ghostwhite;
+  position: absolute;
+  background: rgba(17,15,19,0.5);
+
+}
+
+@media only screen and (max-width: 600px) {
+  #logo{
+  visibility: hidden;
+
+  }
+  .articletitle h1{
+    text-align: left;
+    align-items: left;
+    margin-left: 0;
+    padding: 0;
+  }
+}

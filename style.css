@@ -39,3 +39,19 @@ nav li a{
   background: #151719;
   margin: 3px 0;
 }
+
+.mainTitle{
+  text-align: center;
+  width: 100%;
+}
+
+marquee{
+  background: red;
+  color: ghostwhite;
+  font-family: 'Noto Sans', sans-serif;
+  font-size 20px;
+}
+
+h2{
+  padding: 50px;
+}
