@@ -25,6 +25,9 @@ nav li a{
   font-family: font-family: 'Oswald', serif;
 }
 
+nav li a:hover{
+  background-color: #BDBDBD;
+}
 #sidebar{
   position: fixed;
   width: 200px;
@@ -49,11 +52,18 @@ nav li a{
   height: 5px;
   background: #151719;
   margin: 3px 0;
+
 }
 
+.main_title{
+  width: 100vw;
+  height: 10vh;
+  color: #1976D2;
+}
 .mainTitle{
   text-align: center;
   width: 100%;
+  height: 100%;
 }
 
 marquee{
@@ -62,16 +72,6 @@ marquee{
   font-family: 'Noto Sans', sans-serif;
   font-size 20px;
 }
-
-.articletitle{
-  font-size: 18px;
-}
-
-.articletitle a{
-  text-decoration: none;
-  color: #607D8B;
-}
-
 .popup .overlay {
   position:fixed;
   top:0px;
@@ -90,7 +90,7 @@ marquee{
   transform:translate(-50%,-50%) scale(0);
   background:#fff;
   width:50%;
-  height:50%;;
+  height:48%;
   z-index:2;
   text-align:center;
   padding:20px;
@@ -126,7 +126,7 @@ marquee{
 
 button{
   position:absolute;
-  top:50%;
+  bottom: -415px;
   left:50%;
   transform:translate(-50%,-50%);
   padding:15px;
@@ -141,6 +141,7 @@ button{
 
 .subscribe{
   position: inherit;
+  bottom: 500px;
   top:50%;
   left:50%;
   transform:translate(-50%,100%);
@@ -152,7 +153,24 @@ button{
   font-weight:600;
   background:#fff;
   color: #607D8B;
+  height: 30%;
+  width: 100%;
+  background-color: #BBDEFB;
+}
 
+.articletitle{
+  font-size: 18px;
+}
+
+.articletitle a{
+  text-decoration: none;
+  color: #607D8B;
+}
+
+.article{
+  padding-left: 30px;
+  padding-bottom: 10px;
+  display: inline-grid;
 }
 
 footer{
@@ -171,10 +189,4 @@ footer a{
     color: #BDBDBD;
     background-color: #1976D2;
     height: 25%;
-}
-
-.article{
-  padding-left: 30px;
-  padding-bottom: 10px;
-  display: inline-grid;
 }

@@ -9,12 +9,14 @@ h1{
   text-align: center;
   padding-top: 85px;
   font-family:
+  color: #1976D2;
 }
 p{
   margin: 15px 20px;
   text-align: left;
   font-size: 18px;
   font-family: 'Alegreya Sans', serif;
+  color: #607D8B;
 }
 
 
