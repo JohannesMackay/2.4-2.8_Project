@@ -52,3 +52,15 @@ div .articleimg {
     padding: 0;
   }
 }
+.action_btn{
+  text-align: center;
+
+}
+.btn{
+  font-family:'Alegreya Sans', serif;
+  text-decoration: none;
+  color: #757575;
+  border-color: black;
+  border-style: solid;
+  background-color: #BBDEFB;
+}

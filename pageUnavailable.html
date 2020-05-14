@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="pageUnvilable.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Noto+Sans&family=Oswald&display=swap" rel="stylesheet">
+
+
+
+
+  <title>Page Unavailable</title>
+</head>
+<body>
+<h1>Sorry this page is currently Unavailable</h1>
+<p>This page is currently unavailable; Subscribe to our newsletter to get the latest infomation.</p>
+<a href="index.html">Click here to return Home</a>
+
+<footer>
+
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>Subscribe to our Newsletter!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ipsam, qui? Neque, natus, quibusdam. Eaque!</p>
+        <br>
+        <label for="name">Name:</label>
+        <input type="name" placeholder="John">
+        <label for="email">Email:</label>
+        <input type="email" placeholder="john.doe@gmail.com">
+        <button class="subscribe" id="subscribe" onclick="togglePopup()">Subscribe</button>
+      </div>
+    </div>
+    <button class="toglePopupBtn" onclick="togglePopup()">Click here to subscribe to our Newsletter</button>
+
+
+
+</footer>
+<script src = "script.js">
+</script>
+</html>

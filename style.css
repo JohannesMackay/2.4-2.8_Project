@@ -22,7 +22,7 @@ nav li a{
   display: flex;
   color: ghostwhite;
   font-size: 22px;
-  font-family: font-family: 'Oswald', serif;
+  font-family: 'Oswald', serif;
 }
 
 nav li a:hover{
@@ -72,6 +72,11 @@ marquee{
   font-family: 'Noto Sans', sans-serif;
   font-size 20px;
 }
+
+::placeholder{
+  color: #1976D2;;
+}
+
 .popup .overlay {
   position:fixed;
   top:0px;
@@ -96,7 +101,7 @@ marquee{
   padding:20px;
   box-sizing:border-box;
   font-family:"Open Sans",sans-serif;
-  color: #607D8B;
+  color: #1976D2;
 }
 
 .popup .close-btn {
