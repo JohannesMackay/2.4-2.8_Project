@@ -11,14 +11,25 @@ h1{
   font-family:
   color: #1976D2;
 }
+h2{
+  color: #607D8B;
+  font-size: 18px;
+}
+h2 a{
+  color: #607D8B;
+  text-decoration: none;
+
+}
 p{
   margin: 15px 20px;
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Alegreya Sans', serif;
   color: #607D8B;
 }
-
+.body{
+  display: inline-block;
+}
 
 .articletitle{
   display: flex;
@@ -26,7 +37,6 @@ p{
 
 div .articleimg {
   position: relative;
-  text-align: center;
   color: ghostwhite;
   align-content: center;
 
