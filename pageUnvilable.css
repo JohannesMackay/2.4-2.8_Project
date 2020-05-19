@@ -11,12 +11,9 @@ a{
 }
 
 ::placeholder{
-color: #1976D2;
+  color: #1976D2;;
 }
 
-.popup{
-  color: #607D8B;
-}
 .popup .overlay {
   position:fixed;
   top:0px;
@@ -34,20 +31,21 @@ color: #1976D2;
   left:50%;
   transform:translate(-50%,-50%) scale(0);
   background:#fff;
-  width:100%;
-  height:50%;
+  width:50%;
+  height:56.6%;
   z-index:2;
   text-align:center;
   padding:20px;
   box-sizing:border-box;
   font-family:"Open Sans",sans-serif;
-  color: #607D8B;
+  color: #1976D2;
+  align-content: center;
 }
 
 .popup .close-btn {
   cursor:pointer;
   position:absolute;
-  right:10px;
+  right:5px;
   top:5px;
   width:30px;
   height:30px;
@@ -69,9 +67,9 @@ color: #1976D2;
   transform:translate(-50%,-50%) scale(1);
 }
 
-button{
+.subscribe-btn-submit{
   position:absolute;
-  top: 200px;
+  bottom: 2%;
   left:50%;
   transform:translate(-50%,-50%);
   padding:15px;
@@ -84,13 +82,12 @@ button{
   color: #607D8B;
 }
 
-.subscribe{
-  position: inherit;
-  bottom: 500px;
-  top:50%;
+button{
+  position:absolute;
+  bottom: -460px;
   left:50%;
-  transform:translate(-50%,100%);
-  padding:30px;
+  transform:translate(-50%,-50%);
+  padding:15px;
   font-size:18px;
   border:2px solid #222;
   color:#222;
@@ -98,7 +95,4 @@ button{
   font-weight:600;
   background:#fff;
   color: #607D8B;
-  height: 30%;
-  width: 100%;
-  background-color: #BBDEFB;
 }
