@@ -146,24 +146,47 @@ marquee{
 }
 
 button{
-  position:absolute;
-  bottom: -460px;
-  left:50%;
-  transform:translate(-50%,-50%);
+  left:66%;
   padding:15px;
   font-size:18px;
   border:2px solid #222;
-  color:#222;
   text-transform:uppercase;
   font-weight:600;
   background:#fff;
   color: #607D8B;
 }
+.feedback{
+    left:33%;
+    padding:15px;
+    font-size:18px;
+    border:2px solid #222;
+    text-transform:uppercase;
+    font-weight:600;
+    background:#fff;
+    color: #607D8B;
+  }
+.bugreport{
+    left:99%;
+    padding:15px;
+    font-size:18px;
+    border:2px solid #222;
+    text-transform:uppercase;
+    font-weight:600;
+    background:#fff;
+    background-color: #fff;
+    color: #607D8B;
+}
 
-
-
-
-
+.buttons{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  color: #607D8B;
+}
+.buttons a{
+  color: #607D8B;
+  text-decoration: none;
+}
 .articletitle{
   font-size: 18px;
 }
@@ -178,6 +201,12 @@ button{
   padding-bottom: 10px;
   display: inline-grid;
 }
+
+.articlecointaner{
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto;
+}
+
 
 footer{
   text-decoration: none;
@@ -274,14 +303,9 @@ form{
   }
 
   button{
-    position:absolute;
-    bottom: -3000px;
-    left:50%;
-    transform:translate(-50%,-50%);
-    padding:15px;
+    width: 100%;
     font-size:18px;
     border:2px solid #222;
-    color:#222;
     text-transform:uppercase;
     font-weight:600;
     background:#fff;
@@ -324,4 +348,22 @@ form{
     width: 100%;
     align-items: center;
   }
+  .articlecointaner{
+  display: grid;
+  grid-template-columns: auto;
+  width: 100%;
+  align-content: center;
+  }
+
+  .articlecointaner img{
+    width:100%;
+  }
+  .buttons{
+    display: grid;
+    grid-template-columns:auto;
+    align-items: center;
+
+  }
+
+
 }
