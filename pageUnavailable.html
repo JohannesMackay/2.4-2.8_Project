@@ -17,85 +17,34 @@
 <p>This page is currently unavailable; Subscribe to our newsletter to get the latest infomation.</p>
 <a href="index.html">Click here to return Home</a>
 
-<footer>
-
-  <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSc78tLdg0NFNH3PDvL9uZjoi3KzBPIP7P2MbHN75ZjKt2oHDQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
-
-  <div class="subscribe">
-    <label>Name: </label>
-    <input class="Name" type="Name" placeholder="John" id="name" required name="entry.1239151759">
-  </div>
-  <div class="subscribe">
-    <label>Email: </label>
-    <input class="Email" type="Email" placeholder="john.doe@gmail.com" id="email" required name="entry.1412278209">
-  </div>
-
-  <div class="w3-section">
-    <button class="subscribe-btn-submit" type="submit">Subscribe to our newsletter</button>
-
-
-  </div>
-</form>
-</div>
-</div>
-
-
-
-
+<br>
+<br>
 <button class="toglePopupBtn" onclick="togglePopup()">Click here to subscribe to our Newsletter</button>
 
-</footer>
-<script type="text/javascript">
-function validateName() {
-     var name = document.getElementById('name').value;
-     if(name.length == 0) {
-       alert("Name can't be blank") ;
-       return false;
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>Subscribe to our Newsletter!</h1>
+        <p>We know how much you HATE being spammed, so we promise that we won't spam ypu!</p>
+            <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSc78tLdg0NFNH3PDvL9uZjoi3KzBPIP7P2MbHN75ZjKt2oHDQ/formResponse" target="_blank"  method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+            <div class="subscribe">
+              <label>Name: </label>
+              <input class="Name" type="Name" placeholder="John" id="name" required name="entry.1239151759">
+            </div>
+            <div class="subscribe">
+              <label>Email: </label>
+              <input class="Email" type="Email" placeholder="john.doe@xtra.co.nz" id="email" required name="entry.1412278209">
+            </div>
 
-     }
-     if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-       alert("Please enter your correct name") ;//Validation Message
-       return false;
-     }
-     return true;
-   }
-
-
-
-  function validateEmail () {
-
-   var email = document.getElementById('email').value;
-   if(email.length == 0) {
-     alert("Email can't be blank") ;//Validation Message
-     return false;
-
-   }
-
-   if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-     alert("Please enter a correct email address") ;//Validation Message
-     return false;
-
-   }
-
-   return true;
-
- }
+            <div class="w3-section">
+              <button class="subscribe-btn-submit" type="submit">Subscribe to our newsletter</button>
+            </div>
+          </form>
+<button class="toglePopupBtn" onclick="togglePopup()">Click here to subscribe to our Newsletter</button>
 
 
- function validateForm() {
-   if (!validateName() || !validateEmail()) {
 
-     alert("Form not submitted");//Validation Message
-     return false;
-   }
-   else {
-     submitted=true;
-     return true;
-   }
- }
- </script>
-
-</footer>
 <script src = "script.js">
 </script>
 </html>
