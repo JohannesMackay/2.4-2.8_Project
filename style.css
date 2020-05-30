@@ -28,6 +28,10 @@ nav li a{
 nav li a:hover{
   background-color: #BDBDBD;
 }
+
+ .logo:hover{
+  background-color: #151719;
+}
 #sidebar{
   position: fixed;
   width: 200px;
@@ -35,6 +39,7 @@ nav li a:hover{
   background: #151719;
   left: -200px;
   transition: all 0.5s linear;
+  z-index: 100;
 }
 #sidebar.active{
   left: 0px;
@@ -154,6 +159,7 @@ button{
   font-weight:600;
   background:#fff;
   color: #607D8B;
+  cursor:pointer;
 }
 .feedback{
     left:33%;
@@ -364,6 +370,8 @@ form{
     align-items: center;
 
   }
-
+  #hidden{
+    display: none;
+  }
 
 }
