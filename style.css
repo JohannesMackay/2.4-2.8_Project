@@ -41,6 +41,7 @@ nav li a:hover{
   transition: all 0.5s linear;
   z-index: 100;
 }
+
 #sidebar.active{
   left: 0px;
 }
@@ -64,6 +65,7 @@ nav li a:hover{
   width: 100vw;
   height: 10vh;
   color: #1976D2;
+  cursor: default;
 }
 .mainTitle{
   text-align: center;
@@ -75,12 +77,13 @@ marquee{
   background: red;
   color: ghostwhite;
   font-family: 'Noto Sans', sans-serif;
-  font-size 20px;
+  font-size: 18px;
 }
 
 ::placeholder{
-  color: #1976D2;;
+  color: #1976D2;
 }
+
 
 .popup .overlay {
   position:fixed;
@@ -210,7 +213,8 @@ button{
 
 .articlecointaner{
 display: grid;
-grid-template-columns: auto auto auto auto auto auto auto;
+grid-template-columns: auto auto auto auto auto auto;
+margin: 0 5px;
 }
 
 
@@ -239,6 +243,9 @@ form{
 
 
 @media only screen and (max-width: 600px) {
+  *{
+    align-content: center;
+  }
 
   .popup .overlay {
     position:fixed;
@@ -364,14 +371,14 @@ form{
   .articlecointaner img{
     width:100%;
   }
+
   .buttons{
     display: grid;
     grid-template-columns:auto;
     align-items: center;
+    }
 
+    #hidden{
+      display: none;
+    }
   }
-  #hidden{
-    display: none;
-  }
-
-}

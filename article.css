@@ -18,7 +18,12 @@ h2{
 h2 a{
   color: #607D8B;
   text-decoration: none;
+  margin: 0;
 
+}
+.logo img{
+  width: 100%;
+  height: 100%;
 }
 p{
   margin: 15px 20px;
@@ -50,13 +55,24 @@ div .articleimg {
 
 }
 
+.action_btn{
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    margin: 5px;
+  }
   #logo{
   visibility: hidden;
 
   }
   .articletitle h1{
-    text-align: left;
+    text-align: center;
     align-items: left;
     margin-left: 0;
     padding: 0;
