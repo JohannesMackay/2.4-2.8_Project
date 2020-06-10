@@ -78,6 +78,7 @@ marquee{
   color: ghostwhite;
   font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
+  background-color: none;
 }
 
 ::placeholder{
@@ -191,6 +192,7 @@ button{
   grid-template-columns: auto auto auto;
   align-items: center;
   color: #607D8B;
+  cursor: grab;
 }
 .buttons a{
   color: #607D8B;

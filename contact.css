@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #607D8B;
+  text-decoration: none;
+}
+h1{
+text-align: center;
+padding-top: 10px;
+color: #1976D2;
+font-size: 34px;
+}
+h3{
+  font-size: 20px;
+  padding:22px;
+  text-align: center;
+  font-weight: lighter;
+}
+.btn{
+text-decoration: none;
+color: #757575;
+border-color: black;
+border-style: solid;
+background-color: #BBDEFB;
+text-align: center;
+margin: 0 auto;
+cursor: grab;
+}
+.action_btn{
+  text-align: center;
