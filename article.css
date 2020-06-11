@@ -8,7 +8,7 @@
 h1{
   text-align: center;
   padding-top: 85px;
-  font-family:
+  font-family: Os;
   color: #1976D2;
 }
 h2{
@@ -29,7 +29,7 @@ p{
   margin: 15px 20px;
   text-align: left;
   font-size: 20px;
-  font-family: 'Alegreya Sans', serif;
+  font-family: noto sans, serif;
   color: #607D8B;
 }
 .body{
@@ -48,7 +48,7 @@ div .articleimg {
 }
 
 .image-overlay{
-  margin: 15px 20px;
+  margin:  15px 20px;
   color: ghostwhite;
   position: absolute;
   background: rgba(17,15,19,0.5);
@@ -76,6 +76,7 @@ div .articleimg {
     align-items: left;
     margin-left: 0;
     padding: 0;
+
   }
 }
 .action_btn{
@@ -89,5 +90,5 @@ div .articleimg {
   border-color: black;
   border-style: solid;
   background-color: #BBDEFB;
-  
+
 }
