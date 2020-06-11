@@ -32,6 +32,7 @@ p{
   font-family: noto sans, serif;
   color: #607D8B;
 }
+
 .body{
   display: inline-block;
 }
@@ -44,15 +45,13 @@ div .articleimg {
   position: relative;
   color: ghostwhite;
   align-content: center;
-
 }
 
 .image-overlay{
-  margin:  15px 20px;
+  margin: 15px 20px;
   color: ghostwhite;
   position: absolute;
   background: rgba(17,15,19,0.5);
-
 }
 
 .action_btn{
@@ -61,9 +60,9 @@ div .articleimg {
 
 @media only screen and (max-width: 600px) {
   *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
-
+    
   }
 
   .logo img{
@@ -73,18 +72,19 @@ div .articleimg {
   .articletitle h1{
     text-align: center;
     align-items: left;
-    margin-left: 0;
     padding: 0;
 
   }
 }
+
 .action_btn{
   text-align: center;
 }
-
-.heroimg{
-  width: 100vw;
+.articleimg{
+  width: 100%;
 }
+
+
 .btn{
   font-family:'Alegreya Sans', serif;
   text-decoration: none;
@@ -92,5 +92,5 @@ div .articleimg {
   border-color: black;
   border-style: solid;
   background-color: #BBDEFB;
-
+}
 }
