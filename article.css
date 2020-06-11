@@ -63,11 +63,10 @@ div .articleimg {
   *{
     margin: 0;
     padding: 0;
+
   }
-  p{
-    margin: 5px;
-  }
-  #logo{
+
+  .logo img{
   visibility: hidden;
 
   }
@@ -81,7 +80,10 @@ div .articleimg {
 }
 .action_btn{
   text-align: center;
+}
 
+.heroimg{
+  width: 100vw;
 }
 .btn{
   font-family:'Alegreya Sans', serif;
