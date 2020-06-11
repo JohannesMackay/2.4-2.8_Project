@@ -7,8 +7,9 @@
 
 h1{
   text-align: center;
-  padding-top: 85px;
-  font-family: Os;
+  margin: 0 auto;
+  padding-top: 60px;
+  font-family: 'Oswald', serif;
   color: #1976D2;
 }
 h2{
@@ -29,7 +30,7 @@ p{
   margin: 15px 20px;
   text-align: left;
   font-size: 20px;
-  font-family: noto sans, serif;
+  font-family: 'noto sans', serif;
   color: #607D8B;
 }
 
@@ -57,6 +58,14 @@ div .articleimg {
 .action_btn{
   text-align: center;
 }
+.btn{
+  font-family:'noto sans', serif;
+  text-decoration: none;
+  color: #757575;
+  border-color: black;
+  border-style: solid;
+  background-color: #BBDEFB;
+}
 
 @media only screen and (max-width: 600px) {
   *{
@@ -73,26 +82,12 @@ div .articleimg {
   }
   .articletitle h1{
     text-align: center;
-    align-items: left;
     padding: 0;
-
   }
-}
-
 .action_btn{
   text-align: center;
 }
 .articleimg{
   width: 100%;
-}
-
-
-.btn{
-  font-family:'Alegreya Sans', serif;
-  text-decoration: none;
-  color: #757575;
-  border-color: black;
-  border-style: solid;
-  background-color: #BBDEFB;
 }
 }
