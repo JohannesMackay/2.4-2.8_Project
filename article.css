@@ -82,6 +82,7 @@ div .articleimg {
   }
   .articletitle h1{
     text-align: center;
+    align-items: left;
     padding: 0;
   }
 .action_btn{
